@@ -1,0 +1,42 @@
+[debug] [2023-04-03T07:23:38.070Z] ----------------------------------------------------------------------
+[debug] [2023-04-03T07:23:38.075Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ICON-TECH\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-03T07:23:38.076Z] CLI Version:   11.25.2
+[debug] [2023-04-03T07:23:38.077Z] Platform:      win32
+[debug] [2023-04-03T07:23:38.077Z] Node Version:  v18.14.1
+[debug] [2023-04-03T07:23:38.080Z] Time:          Mon Apr 03 2023 15:23:38 GMT+0800 (China Standard Time)
+[debug] [2023-04-03T07:23:38.081Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-03T07:23:38.522Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-03T07:23:38.524Z] > authorizing via signed-in user (metasebiagizaww@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ICON-TECH\Desktop\c-user-tesfaye\Eva\CONTENT\Course\1. Building Netflix Clone\1. Netflix-Clone\my-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-03T07:24:07.522Z] Using project from CLI flag: netflix-clone-f3396
+[debug] [2023-04-03T07:24:07.550Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-f3396 [none]
+[debug] [2023-04-03T07:24:09.095Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-f3396 403
+[debug] [2023-04-03T07:24:09.096Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-f3396 "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1beta1/projects/netflix-clone-f3396</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2023-04-03T07:24:09.097Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2023-04-03T07:24:10.066Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\ICON-TECH\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:260:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project netflix-clone-f3396. Please make sure the project exists and your account has permission to access it.
